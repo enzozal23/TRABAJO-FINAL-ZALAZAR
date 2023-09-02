@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.contenedor-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.titulo {
+  background-color: black;
+  text-align: center;
+  height: auto;
+}
+.nav-bar {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+main {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-height: 100vh;
+}
+
+.img-logo {
+  width: 100px;
+  height: 100%;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between !important;
+}
+.text-marca {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-acceso {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 2rem;
+}
+
+.panel-productos {
+  margin-top: 200px;
+
+  display: flex;
+}
+.menu-productos {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  flex-direction: column;
+}
+.menu-productos button {
+  margin: 30px;
+}
+
+.sign-out {
+  display: none;
+}
+.sign-in {
+  display: none;
+}
+
+.iniciar-sesion {
+  color: black;
+  font-size: 2rem;
+}
+.contenedor-sigin {
+  background-color: green;
+}
+.formulario-signin {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(26, 26, 26, 0.315);
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+}
+.contenedor-login {
+  width: 1fr;
+
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+.bienvenido {
+  display: none;
+}
+.formulario-login {
+  display: none;
+  align-items: center;
+  width: 500px;
+  position: absolute;
+  top: 300px;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: end;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+}
+.activo {
+  display: flex;
+}
+.registrate {
+  color: white;
+}
+.contenedor-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+.categorias {
+  display: flex;
+  align-self: start;
+
+  margin: 30px;
+  padding: 30px;
+  color: #000;
+}
+.img-carrito {
+  max-width: 150px;
+  max-height: 150px;
+}
+.contenedor-productos-carrito {
+  display: flex;
+  background-color: #000;
+  gap: 5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 20px;
+}
+.main-carrito {
+  background-color: rgba(70, 72, 73, 0.283);
+  border-radius: 8px;
+}
+
+.titulo-principal {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  color: #000;
+  font-size: 3rem;
+  text-align: start;
+}
+.carrito-acciones {
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+
+.carrito-acciones-izquierda {
+  background-color: #000;
+  display: flex;
+  right: 300px;
+  border-radius: 4px;
+  margin: 10px;
+}
+#carrito-comprado {
+  display: none;
+}
+
+#seguir-comprando {
+  background-color: aliceblue;
+  width: 150px;
+
+  height: 90px !important;
+  text-align: center;
+  margin-top: 10px;
+  color: #000;
+  font-size: 1.5rem;
+}
+#seguir-comprando i {
+  color: #000;
+}
+.carrito-acciones-derecha {
+  background-color: #000;
+  display: flex;
+  gap: 10px;
+
+  left: 200px;
+  border-radius: 4px;
+  margin: 10px;
+}
+.carrito-acciones-total {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.disabled {
+  display: none;
+}

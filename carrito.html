@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- link iconos boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- mi css -->
+    <link rel="stylesheet" href="./main.css">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <p>Lapercha-s.a</p>
+    </div>
+    <nav class="navbar bg-body-tertiary nav-bar ">
+        <div class="container-fluid logo">
+            <a class="navbar-brand logo-text " href="./index.html">
+                <img src="/img/v1057-element-19.jpg" alt="Logo" class="d-inline-block align-text-top img-logo" />
+            </a>
+            <a class="text-marca">LA PERCHA</a>
+
+            <ul class="menu-acceso">
+                <li><a class="btn btn-info" href="/carrito.html" role="button"><i class="bi bi-cart"
+                            id="numero-cart"></i></a></li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <main class="main-carrito">
+        <h1 class="titulo-principal" id="titulo-principal"> Tu Carrito</h1>
+
+
+        <div class="card carrito-producto" id="carrito-producto">
+            <!-- se carga con js -->
+        </div>
+        <div id="carrito-acciones" class="carrito-acciones">
+
+            <div class="carrito-acciones-izquierda">
+                <button id="" class="btn btn-dark carrito-acciones-vaciar"><i class="bi bi-trash3"></i>
+                    Vaciar Carrito
+                </button>
+            </div>
+            <a href="./index.html" id="seguir-comprando" class="btn btn-dark "><i class="bi bi-arrow-left "></i>
+                seguir comprando</a>
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                    <p>Total:</p>
+                    <p id="total"> 3000</p>
+                </div>
+                <button id="boton-comprar" class="btn btn-dark ">
+                    Comprar <i class="bi bi-bag-check"></i>
+                </button>
+            </div>
+
+            <p id="carrito-comprado" class="carrito-comprado activo"> gracias por comprar en la percha.</p>
+        </div>
+
+    </main>
+</body>
+<!-- animaciones sweetalert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- js de toasti  animaciones -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<!-- js carrito -->
+<script src="/js/carrito.js"></script>
+
+</html>

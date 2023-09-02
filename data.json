@@ -1,0 +1,182 @@
+[
+  {
+    "id": " remera-01",
+    "titulo": "remera bobber hecha a mano",
+    "imagen": "./img/remera01.jpg",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 13000
+  },
+  {
+    "id": " remera-02",
+    "titulo": "remera overzise",
+    "imagen": "./img/remera02.png",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 14500
+  },
+  {
+    "id": " remera-03",
+    "titulo": "remera batik infectada",
+    "imagen": "./img/remera03.jpg",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 22300
+  },
+  {
+    "id": " remera-04 ",
+    "titulo": "remera lisas multicolor",
+    "imagen": "./img/remera04.jpg",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 18599
+  },
+  {
+    "id": " remera-05 ",
+    "titulo": "remera fut kongo",
+    "imagen": "./img/remera05.jpg",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 19000
+  },
+  {
+    "id": "remera-06",
+    "titulo": "remera king of kongo",
+    "imagen": "./img/remera06.jpg",
+    "categoria": {
+      "nombre": "remera",
+      "id": "remeras"
+    },
+    "precio": 20399
+  },
+  {
+    "id": "campera-01",
+    "titulo": "campera inflable",
+    "imagen": "./img/campera01.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 23000
+  },
+  {
+    "id": " campera-02 ",
+    "titulo": "campera nike",
+    "imagen": "./img/campera02.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 40000
+  },
+  {
+    "id": " campera-03 ",
+    "titulo": "campera cuero king of kongo",
+    "imagen": "./img/campera03.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 110000
+  },
+  {
+    "id": " campera-04 ",
+    "titulo": "campera parka verde ",
+    "imagen": "./img/campera04.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 63000
+  },
+  {
+    "id": " campera-05",
+    "titulo": "campera de jean mistral",
+    "imagen": "./img/campera05.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 38000
+  },
+  {
+    "id": " campera-06",
+    "titulo": "campera inflable lacoste",
+    "imagen": "./img/campera06.jpg",
+    "categoria": {
+      "nombre": "campera",
+      "id": "camperas"
+    },
+    "precio": 55000
+  },
+  {
+    "id": " jeans-01",
+    "titulo": "jeans negro roto",
+    "imagen": "./img/jean01.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 18000
+  },
+  {
+    "id": " jeans-02",
+    "titulo": "jeans negro",
+    "imagen": "./img/jean02.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 13000
+  },
+  {
+    "id": " jeans-03  ",
+    "titulo": "jeans roto white",
+    "imagen": "./img/jean03.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 19000
+  },
+  {
+    "id": " jeans-04  ",
+    "titulo": "jeans clasico azul",
+    "imagen": "./img/jean04.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 20500
+  },
+  {
+    "id": " jeans-05 ",
+    "titulo": "jeans suelto roto",
+    "imagen": "./img/jean05.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 17690
+  },
+  {
+    "id": " jeans-06",
+    "titulo": "jeans gris",
+    "imagen": "./img/jean06.jpg",
+    "categoria": {
+      "nombre": "jean",
+      "id": "jeans"
+    },
+    "precio": 19000
+  }
+]
